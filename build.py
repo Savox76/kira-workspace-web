@@ -92,6 +92,8 @@ def render(text: str, lang: str, page: str) -> str:
     for k, v in values.items():
         text = text.replace("{{" + k + "}}", v)
     fields = {**IMP, "stand": stand}
+    if lang == "en":
+        fields["land"] = {"Deutschland": "Germany", "Österreich": "Austria", "Schweiz": "Switzerland"}.get(fields.get("land", ""), fields.get("land", ""))
     text = re.sub(r"\{\{F:(\w+)\}\}", lambda m: html.escape(fields.get(m.group(1), "")), text)
     while True:
         new = PAIR.sub(lambda m: m.group(1) if lang == "de" else m.group(2), text)

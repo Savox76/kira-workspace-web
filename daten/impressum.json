@@ -1,9 +1,10 @@
 {
  "_hinweis": "Angaben für Impressum und Datenschutz. Sobald name, strasse, ort und email ausgefüllt sind, erscheinen beide Seiten und die Links im Fuß der Webseite.",
- "name": "",
- "strasse": "",
- "ort": "",
+ "firma": "SavoxMedia",
+ "name": "Mario Elßner",
+ "strasse": "Saalhausener Str. 27",
+ "ort": "01159 Dresden",
  "land": "Deutschland",
- "email": "",
+ "email": "savoxde@gmail.com",
  "telefon": ""
 }
