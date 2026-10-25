@@ -207,3 +207,32 @@ footer p + p { margin-top: 6px; }
   .window-bar span { display: none; }
   .brand span { display: none; }
 }
+
+/* Neu in Kira – echte Zeitfolge, daher als Liste mit Versionsmarken */
+.news { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 56px; align-items: start; }
+.news-list { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--linie); }
+.news-list li { position: relative; display: grid; grid-template-columns: 4.2rem 1fr; gap: 2px 16px; padding: 0 0 26px 26px; }
+.news-list li::before { content: ""; position: absolute; left: -7px; top: 8px; width: 12px; height: 12px; border-radius: 50%; background: var(--papier); border: 2px solid var(--messing); }
+.news-list li:first-child::before { background: var(--messing); }
+.news-v { font: 700 1.05rem var(--display); }
+.news-list time { color: var(--grau); font-size: .92rem; align-self: center; }
+.news-t { grid-column: 2; }
+
+/* Fuß */
+.foot-links { display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: flex-end; }
+
+/* Impressum und Datenschutz */
+.legal-page .collar { position: sticky; top: 0; }
+.legal { max-width: 760px; padding-top: 64px; }
+.legal h1 { font-size: clamp(2.2rem, 1.6rem + 2vw, 3rem); }
+.legal h2 { font-size: 1.35rem; margin-top: 40px; letter-spacing: -.01em; }
+.legal p, .legal address { margin-top: 12px; }
+.legal address { font-style: normal; line-height: 1.7; }
+.legal-sub { color: var(--grau); margin-top: 10px; }
+.legal-meta { margin-top: 40px; color: var(--grau); }
+.legal-page footer { margin-top: 90px; }
+
+@media (max-width: 980px) {
+  .news { grid-template-columns: 1fr; gap: 28px; }
+  .foot-links { justify-content: flex-start; }
+}

@@ -11,7 +11,12 @@ Text und Aufbau stehen in `src/seite.html`. Jede Übersetzung steht direkt neben
 python3 build.py      # schreibt index.html und en/index.html
 ```
 
-`index.html` und `en/index.html` werden mit eingecheckt – GitHub Pages liefert sie direkt aus (Branch `main`, Ordner `/`).
+Die fertigen Seiten werden mit eingecheckt – GitHub Pages liefert sie direkt aus (Branch `main`, Ordner `/`). Der Workflow „Seiten bauen“ baut sie bei jeder Änderung an `src/`, `daten/` oder `assets/` automatisch neu.
+
+## Daten
+
+- `daten/impressum.json` – Angaben für Impressum und Datenschutz (Name, Anschrift, E-Mail). Erst wenn sie vollständig sind, erscheinen beide Seiten und die Links im Fuß.
+- `daten/kira.json` – Version und „Neu in Kira“. Schreibt der Release-Workflow von Kira (Secret `KIRA_WEB_TOKEN` im Repo `hermes_workspace`).
 
 - Gestaltung: `assets/site.css` (Farben und Schriften wie in der App: Nachtblau & Messing, Bricolage Grotesque, IBM Plex Sans – lokal eingebunden, keine fremden Server)
 - Bilder: `assets/img/` – Bildschirmfotos von Kira mit Testdaten, als WebP

@@ -1,0 +1,31 @@
+# Baut die Seiten neu, sobald sich Vorlagen, Daten oder Gestaltung ändern (z. B. daten/impressum.json im
+# Browser bearbeitet oder neue Release-Daten aus Kira), und legt das Ergebnis direkt in main ab.
+# GitHub Pages liefert dann automatisch die neue Fassung aus.
+name: Seiten bauen
+on:
+  push:
+    branches: [main]
+    paths: ["src/**", "daten/**", "assets/**", "build.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bauen
+  cancel-in-progress: false
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bauen
+        run: python build.py
+      - name: Ergebnis ablegen
+        run: |
+          git add -A -- '*.html'
+          if git diff --cached --quiet; then echo "Keine Änderungen."; exit 0; fi
+          git -c user.name="Kira Webseite" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "Seiten neu gebaut"
+          git push
