@@ -1,7 +1,13 @@
 {
- "version": "3.2.1",
- "datum": "2026-10-25",
+ "version": "3.3.0",
+ "datum": "2026-10-26",
  "neuigkeiten": [
+  {
+   "version": "3.3.0",
+   "datum": "2026-10-26",
+   "de": "Denk-Aufwand wählbar, Organisator mit eigenem Modell, Planänderungen direkt auf GitHub",
+   "en": "Selectable reasoning effort, organizer with its own model, plan changes straight to GitHub"
+  },
   {
    "version": "3.2.1",
    "datum": "2026-10-25",
@@ -19,12 +25,6 @@
    "datum": "2026-10-25",
    "de": "Analyse-Profile: eigene Trading-Analysen als Hermes-Skills",
    "en": "Analysis profiles: your own trading analyses as Hermes skills"
-  },
-  {
-   "version": "3.0.0",
-   "datum": "2026-10-25",
-   "de": "Neuer Name: Kira, mit French-Bulldoggen-Logo",
-   "en": "New name: Kira, with a French Bulldog logo"
   }
  ]
 }
