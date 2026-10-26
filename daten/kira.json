@@ -1,7 +1,13 @@
 {
- "version": "3.7.0",
+ "version": "3.8.0",
  "datum": "2026-10-26",
  "neuigkeiten": [
+  {
+   "version": "3.8.0",
+   "datum": "2026-10-26",
+   "de": "Team-Rollen als Stellen – mit Stellenbeschreibung, Skills, Plugins und Unterlagen",
+   "en": "Team roles as positions – with job description, skills, plugins and documents"
+  },
   {
    "version": "3.7.0",
    "datum": "2026-10-26",
@@ -19,12 +25,6 @@
    "datum": "2026-10-26",
    "de": "AGENTS.md als Vorlage für alle Projekte und Prüfung auf GitHub mit Ergebnis in Kira",
    "en": "AGENTS.md as a template for all projects and checks on GitHub with results in Kira"
-  },
-  {
-   "version": "3.4.0",
-   "datum": "2026-10-26",
-   "de": "Grundlage, damit Kira sich selbst weiterentwickeln kann: Projektregeln, Test-Instanz, automatische Prüfungen",
-   "en": "Groundwork for Kira to develop itself: project rules, test instance, automatic checks"
   }
  ]
 }
