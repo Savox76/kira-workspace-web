@@ -1,7 +1,13 @@
 {
- "version": "3.8.5",
- "datum": "2026-10-26",
+ "version": "3.9.0",
+ "datum": "2026-10-27",
  "neuigkeiten": [
+  {
+   "version": "3.9.0",
+   "datum": "2026-10-27",
+   "de": "Vorhandene Pläne übernehmen, „Team & Regeln“, Freigabe-Modus in Kira, Kosten getrennt nach Abo und echten Kosten",
+   "en": "Take over existing plans, “Team & rules”, approval mode in Kira, costs split into subscription and real costs"
+  },
   {
    "version": "3.8.5",
    "datum": "2026-10-26",
@@ -19,12 +25,6 @@
    "datum": "2026-10-26",
    "de": "Der Chat zeigt, welches Modell wirklich geantwortet hat",
    "en": "The chat shows which model actually answered"
-  },
-  {
-   "version": "3.8.2",
-   "datum": "2026-10-26",
-   "de": "Auf GitHub gelöschte Meilensteine bleiben gelöscht",
-   "en": "Milestones deleted on GitHub stay deleted"
   }
  ]
 }
