@@ -1,7 +1,13 @@
 {
- "version": "3.8.3",
+ "version": "3.8.4",
  "datum": "2026-10-26",
  "neuigkeiten": [
+  {
+   "version": "3.8.4",
+   "datum": "2026-10-26",
+   "de": "Neue Unterhaltungen mit gleichem Titel klappen wieder",
+   "en": "New conversations with the same title work again"
+  },
   {
    "version": "3.8.3",
    "datum": "2026-10-26",
@@ -19,12 +25,6 @@
    "datum": "2026-10-26",
    "de": "Prüfergebnis auch mit persönlichem Token, Sammelnachricht bei vielen Meldungen, Hinweis bei unpassendem Modell",
    "en": "Check results with personal tokens, one summary message for many alerts, hint for mismatched models"
-  },
-  {
-   "version": "3.8.0",
-   "datum": "2026-10-26",
-   "de": "Team-Rollen als Stellen – mit Stellenbeschreibung, Skills, Plugins und Unterlagen",
-   "en": "Team roles as positions – with job description, skills, plugins and documents"
   }
  ]
 }
