@@ -1,7 +1,13 @@
 {
- "version": "3.6.0",
+ "version": "3.7.0",
  "datum": "2026-10-26",
  "neuigkeiten": [
+  {
+   "version": "3.7.0",
+   "datum": "2026-10-26",
+   "de": "Zweig je Meilenstein mit Pull Request – GitHub prüft, du nimmst ab, Kira führt zusammen",
+   "en": "One branch per milestone with a pull request – GitHub checks, you sign off, Kira merges"
+  },
   {
    "version": "3.6.0",
    "datum": "2026-10-26",
@@ -19,12 +25,6 @@
    "datum": "2026-10-26",
    "de": "Grundlage, damit Kira sich selbst weiterentwickeln kann: Projektregeln, Test-Instanz, automatische Prüfungen",
    "en": "Groundwork for Kira to develop itself: project rules, test instance, automatic checks"
-  },
-  {
-   "version": "3.3.0",
-   "datum": "2026-10-26",
-   "de": "Denk-Aufwand wählbar, Organisator mit eigenem Modell, Planänderungen direkt auf GitHub",
-   "en": "Selectable reasoning effort, organizer with its own model, plan changes straight to GitHub"
   }
  ]
 }
