@@ -1,7 +1,13 @@
 {
- "version": "3.5.0",
+ "version": "3.6.0",
  "datum": "2026-10-26",
  "neuigkeiten": [
+  {
+   "version": "3.6.0",
+   "datum": "2026-10-26",
+   "de": "Fehler und Wünsche aus GitHub-Issues – melden, einordnen, nachvollziehbar abschließen",
+   "en": "Bugs and requests from GitHub issues – report, triage and close them traceably"
+  },
   {
    "version": "3.5.0",
    "datum": "2026-10-26",
@@ -19,12 +25,6 @@
    "datum": "2026-10-26",
    "de": "Denk-Aufwand wählbar, Organisator mit eigenem Modell, Planänderungen direkt auf GitHub",
    "en": "Selectable reasoning effort, organizer with its own model, plan changes straight to GitHub"
-  },
-  {
-   "version": "3.2.1",
-   "datum": "2026-10-25",
-   "de": "Masterplan-Änderungen von GitHub, Abnahme mit Hochladen repariert, Sitzung und Woche immer sichtbar",
-   "en": "Master plan changes from GitHub, sign-off with push fixed, session and week always visible"
   }
  ]
 }
