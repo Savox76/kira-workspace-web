@@ -1,7 +1,13 @@
 {
- "version": "3.8.4",
+ "version": "3.8.5",
  "datum": "2026-10-26",
  "neuigkeiten": [
+  {
+   "version": "3.8.5",
+   "datum": "2026-10-26",
+   "de": "Neue Stellenvorlage Webdesigner",
+   "en": "New position template: web designer"
+  },
   {
    "version": "3.8.4",
    "datum": "2026-10-26",
@@ -19,12 +25,6 @@
    "datum": "2026-10-26",
    "de": "Auf GitHub gelöschte Meilensteine bleiben gelöscht",
    "en": "Milestones deleted on GitHub stay deleted"
-  },
-  {
-   "version": "3.8.1",
-   "datum": "2026-10-26",
-   "de": "Prüfergebnis auch mit persönlichem Token, Sammelnachricht bei vielen Meldungen, Hinweis bei unpassendem Modell",
-   "en": "Check results with personal tokens, one summary message for many alerts, hint for mismatched models"
   }
  ]
 }
