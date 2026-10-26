@@ -1,7 +1,13 @@
 {
- "version": "3.3.0",
+ "version": "3.4.0",
  "datum": "2026-10-26",
  "neuigkeiten": [
+  {
+   "version": "3.4.0",
+   "datum": "2026-10-26",
+   "de": "Grundlage, damit Kira sich selbst weiterentwickeln kann: Projektregeln, Test-Instanz, automatische Prüfungen",
+   "en": "Groundwork for Kira to develop itself: project rules, test instance, automatic checks"
+  },
   {
    "version": "3.3.0",
    "datum": "2026-10-26",
@@ -19,12 +25,6 @@
    "datum": "2026-10-25",
    "de": "Linux-Server und Lizenz mit 14 Tagen Testphase",
    "en": "Linux servers and a license with a 14-day trial"
-  },
-  {
-   "version": "3.1.0",
-   "datum": "2026-10-25",
-   "de": "Analyse-Profile: eigene Trading-Analysen als Hermes-Skills",
-   "en": "Analysis profiles: your own trading analyses as Hermes skills"
   }
  ]
 }
