@@ -1,7 +1,13 @@
 {
- "version": "3.8.0",
+ "version": "3.8.1",
  "datum": "2026-10-26",
  "neuigkeiten": [
+  {
+   "version": "3.8.1",
+   "datum": "2026-10-26",
+   "de": "Prüfergebnis auch mit persönlichem Token, Sammelnachricht bei vielen Meldungen, Hinweis bei unpassendem Modell",
+   "en": "Check results with personal tokens, one summary message for many alerts, hint for mismatched models"
+  },
   {
    "version": "3.8.0",
    "datum": "2026-10-26",
@@ -19,12 +25,6 @@
    "datum": "2026-10-26",
    "de": "Fehler und Wünsche aus GitHub-Issues – melden, einordnen, nachvollziehbar abschließen",
    "en": "Bugs and requests from GitHub issues – report, triage and close them traceably"
-  },
-  {
-   "version": "3.5.0",
-   "datum": "2026-10-26",
-   "de": "AGENTS.md als Vorlage für alle Projekte und Prüfung auf GitHub mit Ergebnis in Kira",
-   "en": "AGENTS.md as a template for all projects and checks on GitHub with results in Kira"
   }
  ]
 }
