@@ -1,7 +1,13 @@
 {
- "version": "3.4.0",
+ "version": "3.5.0",
  "datum": "2026-10-26",
  "neuigkeiten": [
+  {
+   "version": "3.5.0",
+   "datum": "2026-10-26",
+   "de": "AGENTS.md als Vorlage für alle Projekte und Prüfung auf GitHub mit Ergebnis in Kira",
+   "en": "AGENTS.md as a template for all projects and checks on GitHub with results in Kira"
+  },
   {
    "version": "3.4.0",
    "datum": "2026-10-26",
@@ -19,12 +25,6 @@
    "datum": "2026-10-25",
    "de": "Masterplan-Änderungen von GitHub, Abnahme mit Hochladen repariert, Sitzung und Woche immer sichtbar",
    "en": "Master plan changes from GitHub, sign-off with push fixed, session and week always visible"
-  },
-  {
-   "version": "3.2.0",
-   "datum": "2026-10-25",
-   "de": "Linux-Server und Lizenz mit 14 Tagen Testphase",
-   "en": "Linux servers and a license with a 14-day trial"
   }
  ]
 }
