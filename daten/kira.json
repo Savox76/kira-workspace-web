@@ -1,7 +1,13 @@
 {
- "version": "3.9.2",
+ "version": "3.9.3",
  "datum": "2026-10-27",
  "neuigkeiten": [
+  {
+   "version": "3.9.3",
+   "datum": "2026-10-27",
+   "de": "Warnung, wenn eine Stelle mit eigenem Modell versehentlich mit dem Modell des Organisators läuft",
+   "en": "Warning when a position with its own model accidentally runs on the organizer's model"
+  },
   {
    "version": "3.9.2",
    "datum": "2026-10-27",
@@ -19,12 +25,6 @@
    "datum": "2026-10-27",
    "de": "Vorhandene Pläne übernehmen, „Team & Regeln“, Freigabe-Modus in Kira, Kosten getrennt nach Abo und echten Kosten",
    "en": "Take over existing plans, “Team & rules”, approval mode in Kira, costs split into subscription and real costs"
-  },
-  {
-   "version": "3.8.5",
-   "datum": "2026-10-26",
-   "de": "Neue Stellenvorlage Webdesigner",
-   "en": "New position template: web designer"
   }
  ]
 }
