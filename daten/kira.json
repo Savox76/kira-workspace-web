@@ -1,7 +1,13 @@
 {
- "version": "3.9.1",
+ "version": "3.9.2",
  "datum": "2026-10-27",
  "neuigkeiten": [
+  {
+   "version": "3.9.2",
+   "datum": "2026-10-27",
+   "de": "Modellfehler ab der zweiten Nachricht behoben – Anbieter und Modell bleiben in der Unterhaltung zusammen",
+   "en": "Fixed the model error from the second message on – provider and model now stay together in a conversation"
+  },
   {
    "version": "3.9.1",
    "datum": "2026-10-27",
@@ -19,12 +25,6 @@
    "datum": "2026-10-26",
    "de": "Neue Stellenvorlage Webdesigner",
    "en": "New position template: web designer"
-  },
-  {
-   "version": "3.8.4",
-   "datum": "2026-10-26",
-   "de": "Neue Unterhaltungen mit gleichem Titel klappen wieder",
-   "en": "New conversations with the same title work again"
   }
  ]
 }
