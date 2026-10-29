@@ -1,7 +1,13 @@
 {
- "version": "3.9.8",
+ "version": "3.9.9",
  "datum": "2026-10-29",
  "neuigkeiten": [
+  {
+   "version": "3.9.9",
+   "datum": "2026-10-29",
+   "de": "Wichtige Korrektur: Der Organisator verbraucht nach Abschluss kein Kontingent mehr",
+   "en": "Important fix: the organizer no longer uses up quota after work is finished"
+  },
   {
    "version": "3.9.8",
    "datum": "2026-10-29",
@@ -19,12 +25,6 @@
    "datum": "2026-10-29",
    "de": "Den Organisator im Chat um einen Plan bitten – Masterplan und Ablauf erscheinen direkt zum Freigeben",
    "en": "Ask the organizer for a plan in the chat – master plan and roadmap show up ready for approval"
-  },
-  {
-   "version": "3.9.5",
-   "datum": "2026-10-29",
-   "de": "Neuer Befehl „kira status“ – im Terminal sehen, ob Kira im Hintergrund arbeitet und woran",
-   "en": "New “kira status” command – see in the terminal whether Kira is working in the background and on what"
   }
  ]
 }
