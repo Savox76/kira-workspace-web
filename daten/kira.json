@@ -1,7 +1,13 @@
 {
- "version": "3.9.4",
- "datum": "2026-10-27",
+ "version": "3.9.5",
+ "datum": "2026-10-29",
  "neuigkeiten": [
+  {
+   "version": "3.9.5",
+   "datum": "2026-10-29",
+   "de": "Neuer Befehl „kira status“ – im Terminal sehen, ob Kira im Hintergrund arbeitet und woran",
+   "en": "New “kira status” command – see in the terminal whether Kira is working in the background and on what"
+  },
   {
    "version": "3.9.4",
    "datum": "2026-10-27",
@@ -19,12 +25,6 @@
    "datum": "2026-10-27",
    "de": "Modellfehler ab der zweiten Nachricht behoben – Anbieter und Modell bleiben in der Unterhaltung zusammen",
    "en": "Fixed the model error from the second message on – provider and model now stay together in a conversation"
-  },
-  {
-   "version": "3.9.1",
-   "datum": "2026-10-27",
-   "de": "Kira meldet auch ohne offenes Fenster – Abgleich mit GitHub und Update-Prüfung laufen im Hintergrund",
-   "en": "Kira notifies you without an open window – GitHub sync and update checks run in the background"
   }
  ]
 }
