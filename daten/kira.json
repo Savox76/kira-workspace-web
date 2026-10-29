@@ -1,7 +1,13 @@
 {
- "version": "3.9.7",
+ "version": "3.9.8",
  "datum": "2026-10-29",
  "neuigkeiten": [
+  {
+   "version": "3.9.8",
+   "datum": "2026-10-29",
+   "de": "Der Organisator macht selbst weiter, sobald seine Teilagenten fertig sind – kein Klick mehr nötig",
+   "en": "The organizer carries on by himself once his sub-agents are done – no more clicking"
+  },
   {
    "version": "3.9.7",
    "datum": "2026-10-29",
@@ -19,12 +25,6 @@
    "datum": "2026-10-29",
    "de": "Neuer Befehl „kira status“ – im Terminal sehen, ob Kira im Hintergrund arbeitet und woran",
    "en": "New “kira status” command – see in the terminal whether Kira is working in the background and on what"
-  },
-  {
-   "version": "3.9.4",
-   "datum": "2026-10-27",
-   "de": "Mehrere Unterhaltungen gleichzeitig – laufende Antworten live weiterverfolgen, auch nach Neuladen oder am Handy",
-   "en": "Several conversations at once – follow running answers live again, even after reloading or on your phone"
   }
  ]
 }
