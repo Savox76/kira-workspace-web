@@ -1,7 +1,13 @@
 {
- "version": "3.9.9",
- "datum": "2026-10-29",
+ "version": "3.9.10",
+ "datum": "2026-10-31",
  "neuigkeiten": [
+  {
+   "version": "3.9.10",
+   "datum": "2026-10-31",
+   "de": "Restkontingent zeigt alle Abos zuverlässig an",
+   "en": "Remaining quota now reliably shows all subscriptions"
+  },
   {
    "version": "3.9.9",
    "datum": "2026-10-29",
@@ -19,12 +25,6 @@
    "datum": "2026-10-29",
    "de": "Blockierte Aufgaben mit einem Klick lösen – Grund sehen, antworten, erneut versuchen",
    "en": "Resolve blocked tasks in one click – see the reason, answer, try again"
-  },
-  {
-   "version": "3.9.6",
-   "datum": "2026-10-29",
-   "de": "Den Organisator im Chat um einen Plan bitten – Masterplan und Ablauf erscheinen direkt zum Freigeben",
-   "en": "Ask the organizer for a plan in the chat – master plan and roadmap show up ready for approval"
   }
  ]
 }
