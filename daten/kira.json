@@ -1,7 +1,13 @@
 {
- "version": "3.9.10",
+ "version": "3.9.11",
  "datum": "2026-10-31",
  "neuigkeiten": [
+  {
+   "version": "3.9.11",
+   "datum": "2026-10-31",
+   "de": "Restkontingent zeigt Claude und Copilot dauerhaft – mit dem Zeitpunkt der letzten Werte",
+   "en": "Remaining quota keeps showing Claude and Copilot – with the time of the last values"
+  },
   {
    "version": "3.9.10",
    "datum": "2026-10-31",
@@ -19,12 +25,6 @@
    "datum": "2026-10-29",
    "de": "Der Organisator macht selbst weiter, sobald seine Teilagenten fertig sind – kein Klick mehr nötig",
    "en": "The organizer carries on by himself once his sub-agents are done – no more clicking"
-  },
-  {
-   "version": "3.9.7",
-   "datum": "2026-10-29",
-   "de": "Blockierte Aufgaben mit einem Klick lösen – Grund sehen, antworten, erneut versuchen",
-   "en": "Resolve blocked tasks in one click – see the reason, answer, try again"
   }
  ]
 }
